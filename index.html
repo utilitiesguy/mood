@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Tracker</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mood Tracker</h1>
+        <div id="mood-buttons">
+            <button class="mood-btn" onclick="recordMood('Happy')">😊 Happy</button>
+            <button class="mood-btn" onclick="recordMood('Sad')">😢 Sad</button>
+            <button class="mood-btn" onclick="recordMood('Stressed')">😰 Stressed</button>
+            <button class="mood-btn" onclick="recordMood('Calm')">😌 Calm</button>
+            <button class="mood-btn" onclick="recordMood('Angry')">😡 Angry</button>
+        </div>
+        <div id="history">
+            <h2>History</h2>
+            <ul id="mood-history">
+                <!-- Mood history will appear here -->
+            </ul>
+        </div>
+        <div id="stats">
+            <h2>Analytics</h2>
+            <p id="most-frequent-mood">Most frequent mood: Loading...</p>
+        </div>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>
