@@ -10,8 +10,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 100vh;  /* Zajistí, že stránka bude mít minimální výšku */
     margin: 0;
+    padding: 25px 0;  /* 25px mezera nahoře a dole */
 }
 
 .container {
